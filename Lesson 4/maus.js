@@ -1,5 +1,5 @@
-class Maus {
-    constructor(x, y, index) {
+class Maus  { 
+        constructor(x, y, index) {
         this.x = x;
         this.y = y;
         this.energy = 15;
@@ -7,6 +7,7 @@ class Maus {
         this.directions = [];
     }
     getNewCoordinates() {
+        
         this.directions = [
             [this.x - 2, this.y - 2],
             [this.x - 1, this.y - 2],
