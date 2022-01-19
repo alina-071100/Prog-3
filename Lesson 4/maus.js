@@ -1,10 +1,9 @@
-class Maus  { 
-        constructor(x, y, index) {
+
+   class Maus extends LivingCreature{   
+     constructor(x, y) {
         this.x = x;
         this.y = y;
         this.energy = 15;
-        this.index = index;
-        this.directions = [];
     }
     getNewCoordinates() {
         

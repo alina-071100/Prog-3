@@ -1,12 +1,11 @@
-class Cat {
-    constructor(x, y, index) {
+
+  class Cat extends LivingCreature{   
+       constructor(x, y, index) {
         this.x = x;
         this.y = y;
         this.xot = 0
         this.xotu = 0
         this.energy = 10;
-        this.index = index;
-        this.directions = [];
     }
     getNewCoordinates() {
         this.directions = [
